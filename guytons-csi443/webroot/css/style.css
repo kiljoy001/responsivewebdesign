@@ -1,27 +1,25 @@
 body {
 	margin-left: 28px;
-	marging-right: 100px;
-	font-family: Palatino Linotype, Garmond, Serif;
+	margin-right: 100px;
+	font-family: "Palatino Linotype", Garamond, Serif;
 	color: #000000;
-	background: #ffffff;
-	background-imager: url();
+	background: rgb(162, 196, 226);
+	background-image: url();
 	background-position: top left;
 	background-repeat: no-repeat;
 	text-align: justify;
  }
-
-//links
-
+/*Links*/
 a:link { color: #00c; background: transparent; }
 a:visited { color:#609; background:transparent; }
 a:active { color: #c00; background:transparent; }
 a:hover { background : #ffa; }
 
-h1, h2, h3, h4, h5, h6 { text-aling:left; }
+h1, h2, h3, h4, h5, h6 { text-align:left; }
 h1, h2, h3 { color:005a9c }
-h1 {font: 170%; san-serif;}
-h2 {font: 140%; san-serif;}
-h3 {font: 120%; san-serif;}
+h1 {font: 170%; font-family:san-serif;}
+h2 {font: 140%; font-family:san-serif;}
+h3 {font: 120%; font-family:san-serif;}
 h4 {font: 100%; font-weight:strong; font-family:san-serif;}
 h5 {font: 100%; font-style:italic; font-family:san-serif;}
 h6 {font: 170%; font-variant: small-caps; font-family:san-serif;}
