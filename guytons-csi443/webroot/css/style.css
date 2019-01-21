@@ -9,6 +9,9 @@ body {
 	background-repeat: no-repeat;
 	text-align: justify;
  }
+
+ 
+
 /*Links*/
 a:link { color: #00c; background: transparent; }
 a:visited { color:#609; background:transparent; }
