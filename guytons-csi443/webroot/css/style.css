@@ -14,7 +14,7 @@ body {
 		color: white;
 		background-color: black;
 	 }
-	 .img{
+	 img{
 		 padding:15px;
 	 }
  }
@@ -23,7 +23,7 @@ body {
 		 color: black;
 		 background-color: lightgray
 	 }
-	 .ul{
+	 ul{
 		list-style-type: none;
 	 }
  }
