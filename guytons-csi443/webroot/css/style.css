@@ -9,7 +9,34 @@ body {
 	background-repeat: no-repeat;
 	text-align: justify;
  }
-
+ @media(max-width:576px){
+	 body{
+		color: white;
+		background-color: black;
+	 }
+	 .img{
+		 padding:15px;
+	 }
+ }
+ @media(min-width:768px){
+	 body{
+		 color: black;
+		 background-color: lightgray
+	 }
+	 .ul{
+		list-style-type: none;
+	 }
+ }
+ @media(min-width:992px){
+	 body{
+		 color: black;
+		 background-color: white;
+	 }
+	 div div div h3 {
+		 font-size: 48px;
+	 }
+ }
+ @media(min-width:1200px){}
  
 
 /*Links*/
