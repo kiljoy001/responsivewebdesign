@@ -36,8 +36,9 @@ body {
 		 font-size: 48px;
 	 }
  }
- @media(min-width:1200px){}
- 
+li:nth-child(even) {
+	background-color: cornflowerblue;
+}
 
 /*Links*/
 a:link { color: #00c; background: transparent; }
