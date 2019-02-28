@@ -7,3 +7,31 @@ img {
 h2 {
     clear:both;
 }
+
+div div:nth-child(even){
+    background-color:cornflowerblue;
+}
+
+@media (min-width:992px) and (orientation:landscape){
+    .col-sm-12{
+       
+    }
+}
+@media(max-width:576px){
+    body{
+       color: white;
+       background-color: black;
+    }
+}
+@media(min-width:768px){
+    body{
+        color: black;
+        background-color: lightgray
+    }
+}
+@media(min-width:992px){
+    body{
+        color: black;
+        background-color: white;
+    }
+} 
