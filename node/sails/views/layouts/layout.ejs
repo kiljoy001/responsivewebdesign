@@ -6,24 +6,44 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <title>Responsive CS Class Site</title>
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link href="styles/reset.css" rel="stylesheet" type="text/css"/>
-        <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+        <!--STYLES-->
+        <link rel="stylesheet" href="/styles/BootstrapCss/bootstrap-grid.css">
+        <link rel="stylesheet" href="/styles/BootstrapCss/bootstrap-grid.min.css">
+        <link rel="stylesheet" href="/styles/BootstrapCss/bootstrap-reboot.css">
+        <link rel="stylesheet" href="/styles/BootstrapCss/bootstrap-reboot.min.css">
+        <link rel="stylesheet" href="/styles/BootstrapCss/bootstrap.css">
+        <link rel="stylesheet" href="/styles/BootstrapCss/bootstrap.min.css">
+        <link rel="stylesheet" href="/styles/importer.css">
+        <link rel="stylesheet" href="/styles/midterm.css">
+        <link rel="stylesheet" href="/styles/reset.css">
+        <link rel="stylesheet" href="/styles/review.css">
+        <link rel="stylesheet" href="/styles/style.css">
+        <!--STYLES END-->
     </head>
   <body>
     <nav id="top" class="navbar navbar-dark navbar-expand-sm bg-dark">
         <ul class="navbar-nav" style="list-style-type: none;">
-            <li class="nav-item"><a class="nav-link" href="/cascade">Cascades Park</a></li>
-            <li class="nav-item"><a class="nav-link" href="#purpose">Site Purpose</a></li>
-            <li class="nav-item"><a class="nav-link" href="#nav">Navigation</a></p></li>
-            <li class="nav-item"><a class="nav-link" href="#design">Design</a></p></li>
-            <li class="nav-item"><a class="nav-link" href="#content">Content</a></p></li>
-            <li class="nav-item"><a class="nav-link" href="#intera">Interactivity</a></p></li>
-            <li class="nav-item"><a class="nav-link" href="#improve">Improvements</a></p></li>
+            <li class="nav-item">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ProjectDropdown" aria-controls="ProjectDropdown" aria-haspopup="true" aria-label="Projects">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div id="ProjectDropdown" class="navbar-collapse collapse" aria-labelledby="ProjectDropdown">
+                    <ul>
+                        <li class="nav-item"><a class="nav-link" href="/cascade">Cascades Park</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#purpose">Site Purpose</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#nav">Navigation</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#design">Design</a></li>
+                    </ul>
+                </div>
+            </li>
         </ul>
     </nav>
     <%- body %>
     <!--SCRIPTS-->
     <script src="/dependencies/sails.io.js"></script>
+    <script src="/dependencies/popper.js"></script>
+    <script src="/js/bootstrap.min.js"></script>
+    <script src="/js/bootstrap.bundle.js"></script>
     <!--SCRIPTS END-->
   </body>
 </html>

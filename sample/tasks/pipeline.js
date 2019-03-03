@@ -34,9 +34,6 @@
 var cssFilesToInject = [
 
   // Bring in `.css` files for themes and style guides (e.g. Bootstrap, Foundation)
-  'dependencies/BootstrapCss/bootstrap-grid.min.css',
-  'dependencies/BootstrapCss/bootstrap-reboot.min.css',
-  'dependencies/BootstrapCss/bootstrap.min.css',
   'dependencies/**/*.css',
 
   // All of the rest of your custom `.css` files will be injected here,
@@ -70,16 +67,12 @@ var jsFilesToInject = [
   // Bring in `.js` files for any other client-side JavaScript dependencies.
   // (e.g. Lodash, Vue.js, jQuery, Bootstrap, Ember, Angular, etc.)
   // > Be sure to list dependencies that depend on each other in the right order!
-  'dependencies/jquery3.3.1.min.js',
-  'dependencies/popper.js',
-  'js/bootstrap.min.js',
-  'js/bootstrap.bundle.js',
-  //'dependencies/**/*.js',
+  'dependencies/**/*.js',
 
   // All of the rest of your custom client-side js files will be injected here,
   // in no particular order.  To customize the ordering, add additional items
   // here, _above_ this one.
-  //'js/**/*.js'
+  'js/**/*.js'
 ];
 
 
